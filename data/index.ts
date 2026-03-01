@@ -19,7 +19,7 @@ export const gridItems = [
     {
         id: 2,
         title: "Comfortable working with frontend & backend systems",
-        description: "React, Inertia.js, Node.js, Laravel & SQL databases.",
+        description: "React, Next.js, Node.js, Prisma, Zod, and Express.",
         className: "lg:col-span-2 md:col-span-3 md:row-span-3",
         imgClassName: "",
         titleClassName: "justify-start",
@@ -186,15 +186,15 @@ export const workExperience = [
     },
     {
         id: 1,
-        title: "Full-Stack Developer – Laravel & React",
-        desc: "Architected and developed scalable Laravel backend systems and integrated them with React applications using Inertia.js. Implemented authentication flows, role-based access control, and RESTful APIs with secure JWT handling.",
-        className: "md:col-span-2", // change to md:col-span-2
+        title: "Full-Stack Developer – Next.js & TypeScript",
+        desc: "Designed and developed scalable full-stack applications using Next.js with TypeScript. Built server-side and client-side features leveraging App Router, API routes, and server actions. Implemented authentication flows, role-based access control, and secure RESTful APIs with JWT-based session management.",
+        className: "md:col-span-2",
         thumbnail: "/exp3.svg",
     },
     {
         id: 4,
         title: "ALX Web Development Intern",
-        desc: "Developed and maintained user-facing features using Laravel modern frontend technologies.",
+        desc: "Developed and maintained user-facing features using Reactjs/Nextjs modern frontend technologies.",
         className: "md:col-span-2",
         thumbnail: "/exp4.svg",
     },
@@ -208,7 +208,7 @@ export const socialMedia = [
     },
     {
         id: 2,
-        img: "/twit.svg",
+        img: "/twit.png",
         link: 'https://x.com/AliAhmedAli_188'
     },
     {

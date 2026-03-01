@@ -47,7 +47,7 @@ const Hero = () => {
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <ProfilePhoto />
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Laravel
+            Dynamic Web Magic with Nextjs
           </p>
 
           {/**
@@ -62,7 +62,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Ali Ahmed, a Laravel Developer based in Egypt.
+            Hi! I&apos;m Ali Ahmed, a Nextjs Developer based in Egypt.
           </p>
 
           <Link href="#about">
