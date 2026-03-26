@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 
 function ProfilePhoto() {
   return (
@@ -23,8 +22,9 @@ function ProfilePhoto() {
           alt="Ali Ahmed - Profile Photo"
           width={160}
           height={160}
-          quality={100}
+          quality={90}
           className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover object-top border-2 border-black-100"
+          priority
         />
       </div>
     </div>
