@@ -33,6 +33,12 @@ export const BentoGrid = ({
   );
 };
 
+const leftLists = ["ShadCn", "Express", "Typescript"];
+const rightLists = ["ReactJS", "NextJS", "Vuejs"];
+
+// const leftLists = ["ShadCn", "Node.js", "Typescript"];
+// const rightLists = ["ReactJS", "Laravel", "Inertia.js"];\
+
 export const BentoGridItem = ({
   className,
   id,
@@ -52,12 +58,6 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ShadCn", "Express", "Typescript"];
-  const rightLists = ["ReactJS", "NextJS", "Vuejs"];
-
-  // const leftLists = ["ShadCn", "Node.js", "Typescript"];
-  // const rightLists = ["ReactJS", "Laravel", "Inertia.js"];
-  
   const [copied, setCopied] = useState(false);
   const [download, setDownload] = useState(false);
 
@@ -143,7 +143,7 @@ export const BentoGridItem = ({
           )}
         >
           {/* change the order of the title and des, font-extralight, remove text-xs text-neutral-600 dark:text-neutral-300 , change the text-color */}
-          <div className="font-sans font-extralight md:max-w-42 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
+          <div className="font-sans font-extralight md:max-w-50 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
             {description}
           </div>
           {/* add text-3xl max-w-96 , remove text-neutral-600 dark:text-neutral-300*/}
@@ -159,9 +159,9 @@ export const BentoGridItem = ({
 
           {/* Tech stack list div */}
           {id === 3 && (
-            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-1">
+            <div className="hidden sm:flex gap-1 lg:gap-5 w-fit absolute right-0.5 mb-11 z-100">
               {/* tech stack lists */}
-              <div className="flex flex-col gap-3 md:gap-3 pt-2">
+              <div className="flex flex-col gap-3 md:gap-5 pt-2">
                 {leftLists.map((item, i) => (
                   <span
                     key={i}
@@ -173,7 +173,7 @@ export const BentoGridItem = ({
                 ))}
                 <span className="py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
               </div>
-              <div className="flex flex-col gap-3 md:gap-3 pb-2">
+              <div className="flex flex-col gap-3 md:gap-5 pb-2">
                 <span className="py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
                 {rightLists.map((item, i) => (
                   <span

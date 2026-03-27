@@ -8,28 +8,28 @@ export const navItems = [
 export const gridItems = [
     {
         id: 1,
-        title: "I focus on building scalable and maintainable web applications",
-        description: "Performance and clean architecture matter.",
+        title: "Delivering scalable fullstack solutions for businesses",
+        description: "I prioritize building rapid MVPs and scaling them efficiently based on real business needs.",
         className: "lg:col-span-3 md:col-span-6 md:row-span-5 lg:min-h-[60vh]",
         imgClassName: "w-full h-full",
-        titleClassName: "justify-end",
+        titleClassName: "justify-end min-w-96",
         img: "/b1.svg",
         spareImg: "",
     },
     {
         id: 2,
-        title: "Comfortable working with frontend & backend systems",
-        description: "React, Next.js, Node.js, Prisma, Zod, and Express.",
+        title: "Comfortable working across the entire stack",
+        description: "Expertise in React, Next.js, TypeScript, Node.js, and robust backend architectures.",
         className: "lg:col-span-2 md:col-span-3 md:row-span-3",
         imgClassName: "",
-        titleClassName: "justify-start",
+        titleClassName: "justify-start mb-15",
         img: "",
         spareImg: "",
     },
     {
         id: 3,
-        title: "My Tech Stack",
-        description: "I constantly Try to improve",
+        title: "Where Development Meets Marketing",
+        description: "Combining technical skills with marketing strategies to build products that convert. I focus on clean, minimal, Apple-style user experiences.",
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
         titleClassName: "justify-center",
@@ -39,7 +39,7 @@ export const gridItems = [
     {
         id: 4,
         title: "Passionate about AI integration in web applications",
-        description: "Exploring practical AI features in real-world products.",
+        description: "Building intelligent, practical AI features to give modern business products a competitive edge.",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",
         titleClassName: "justify-start",
@@ -48,8 +48,8 @@ export const gridItems = [
     },
     {
         id: 5,
-        title: "Currently mastering Next.js & system design fundamentals",
-        description: "Focused on performance optimization and scalable architecture.",
+        title: "Building robust architectures and scalable systems",
+        description: "Focused on performance optimization, system design fundamentals, and maintainable code structure.",
         className: "md:col-span-3 md:row-span-2",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
         titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -58,7 +58,7 @@ export const gridItems = [
     },
     {
         id: 6,
-        title: "Let’s build something impactful together",
+        title: "Ready to build an impactful business solution together?",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",
@@ -67,7 +67,6 @@ export const gridItems = [
         spareImg: "",
     },
 ];
-
 export const projects = [
     {
         id: 1,
