@@ -78,6 +78,14 @@ export const projects = [
     },
     {
         id: 2,
+        title: "Carepulse - Healthcare Management System",
+        des: "patient management system designed to streamline healthcare registration, appointment scheduling, and administrative workflows.",
+        img: "/register-page.png",
+        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg", "/c.svg"],
+        link: "https://carepullse.vercel.app/",
+    },
+    {
+        id: 3,
         title: "Berimbolo Security Company",
         des: "Berimbolo Security Solutions delivers personalized risk assessments and tailored protection strategies for residential and commercial clients.",
         img: "/berimbolo-security.png",
@@ -85,20 +93,12 @@ export const projects = [
         link: "https://berimbolo-backend.web.app",
     },
     {
-        id: 3,
+        id: 4,
         title: "IT Solutions Support Platform",
         des: "A full-stack web application for IT solutions and support services.",
         img: "/dern-support.png",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
         link: "https://github.com/AliAhmed2007/Dern-Support-Fullstack-Application",
-    },
-    {
-        id: 4,
-        title: "Yoom - Video Conferencing App",
-        des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-        img: "/p2.svg",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-        link: "https://github.com/adrianhajdin/zoom-clone",
     },
 ];
 
