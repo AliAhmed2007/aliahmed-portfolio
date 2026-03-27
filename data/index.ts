@@ -105,34 +105,20 @@ export const projects = [
 export const testimonials = [
     {
         quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+            "Collaborating with Ali was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
         name: "Michael Johnson",
         title: "Director of AlphaStream Technologies",
+        profile: "/profile.svg"
     },
     {
         quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
+            "I had a chance to work alongside him on a Laravel project, and I must say that he is a great frontend developer. He is proficient at creating clean and user-friendly user interfaces using various technologies like Next.js, React, TypeScript, Tailwind CSS, etc. He is also familiar with backend workflows and APIs, which is a great advantage when working as a full-stack developer. I think he is a great person to work alongside.",
+        name: "Kareem Ashraf Radwan",
+        title: "Full Stack Web Developer",
+        profile: "/kareem.jpg",
+        href: "https://www.linkedin.com/in/ali-ahmed-ali1/details/recommendations/",
+        icon: "link.svg"
+    }
 ];
 
 export const companies = [
@@ -162,7 +148,7 @@ export const companies = [
     },
     {
         id: 5,
-        name: "docker.",
+        name: "docker",
         img: "/dock.svg",
         nameImg: "/dockerName.svg",
     },
@@ -184,7 +170,7 @@ export const workExperience = [
         thumbnail: "/exp2.svg",
     },
     {
-        id: 1,
+        id: 3,
         title: "Full-Stack Developer – Next.js & TypeScript",
         desc: "Designed and developed scalable full-stack applications using Next.js with TypeScript. Built server-side and client-side features leveraging App Router, API routes, and server actions. Implemented authentication flows, role-based access control, and secure RESTful APIs with JWT-based session management.",
         className: "md:col-span-2",
@@ -192,7 +178,7 @@ export const workExperience = [
     },
     {
         id: 4,
-        title: "ALX Web Development Intern",
+        title: "ALX Fullstack Web Dev Intern",
         desc: "Developed and maintained user-facing features using Reactjs/Nextjs modern frontend technologies.",
         className: "md:col-span-2",
         thumbnail: "/exp4.svg",
